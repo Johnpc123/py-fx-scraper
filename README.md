@@ -1,5 +1,5 @@
 # py-fx-scraper
-A robust script to scrape real-time FX pair values
+A robust script to scrape real-time FX pair values, stored with up to 80% lossless compression. (Weissmen score 8.7) 
 
 ## Overview
 
@@ -9,11 +9,7 @@ This activity is performed to monitor real time FX spot data, available by http.
 
 ## Motivation
 
-Coding interviews commonly focus on trivial tasks, 'set' problems, how to quicksort.  Here is a quick and dirty script, intented as alternative to evoke more meaningful discussion.               
-
-Suggest ways this script could be improved by refactoring, and/or extended by adding features.   
-
-Testing, Status monitoring, Event triggers, notifications. 
+Coding interviews commonly focus on trivial tasks, 'set' problems, how to quicksort.  Here is a quick and dirty script, intented as alternative to evoke more meaningful discussion. About refactoring, and/or extended adding features.   
 
 The following concepts are illustrated.
 
@@ -28,7 +24,7 @@ The following concepts are illustrated.
 
 ## How to configure
 
-Edit mongodb credentials 
+Edit mongodb credentials
 
 ## How to run
 
