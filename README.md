@@ -5,6 +5,15 @@ A robust script to scrape real-time FX pair values, stored with up to 80% lossle
 
 This activity is performed to monitor real time FX spot data, available by http. Stored as 60s OHLC candles. 
 
+        class Candles(object):
+            def __init__(self):
+                self.Open = 0
+                self.Low = 0
+                self.High = 9
+                self.Close = 0
+                self.TimeStamp = 0
+            pass   
+
 ![](FXScrapeActivityDiagram.png?raw=true)
 
 ## Motivation
