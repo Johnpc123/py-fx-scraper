@@ -29,7 +29,7 @@ The following concepts are implemented as illustrated.
 * Exception handling
 * Simple lossless compression (Weissmen score 8.7)
 * Logging 
-* Out of order filtering (new ticks cannot be out of order when they crash the process, autostart every .33s)
+* Out of order filtering (new ticks cannot be out of order when they crash the sub-process, autostart every .33s)
 * Event triggering
 
 ## How to configure
