@@ -16,24 +16,27 @@ This activity is performed to monitor real time FX spot data, available by http.
 
 ![](FXScrapeActivityDiagram.png?raw=true)
 
-## Motivation
+## Motivation (Pair programming, coding interviews and whiteboard 'set' problems)
 
-Coding interviews commonly focus on trivial tasks, 'set' problems, how to quicksort.  Here is a quick and dirty script, intented as alternative to evoke more meaningful discussion. About refactoring, and/or extended adding features.   
+Here is a quick and dirty python3 script. It could use some refactoring, testing, linting, monitoring, backup, training and extending.   
 
-The following concepts are illustrated.
+The following concepts are implemented as illustrated.
 
 * Fail Over
 * Activity Design  
 * Modularity
 * Recursion
 * Exception handling
-* Simple lossless compression 
+* Simple lossless compression (Weissmen score 8.7)
 * Logging 
-
+* Out of order filtering (new ticks cannot be out of order when they crash the process, autostart every .33s)
+* Event triggering
 
 ## How to configure
 
 Edit mongodb credentials
+
+`_client = MongoClient('mongodb://mymongouser:mymongouserpassword@101.111.121.131:27017/EURUSD')`
 
 ## How to run
 
