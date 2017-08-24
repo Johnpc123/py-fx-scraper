@@ -48,6 +48,6 @@ Data access is licensed for personal / educational use.
 
 ## How to Rate
 
-https://bettercodehub.com/results/Johnpc123/py-fx-scraper
+[![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](https://bettercodehub.com/)
 
 
