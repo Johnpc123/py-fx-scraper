@@ -50,13 +50,14 @@ Data access is licensed for personal / educational use.
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](http://practicalcoder.com/)
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](http://sig.practicalcoder.com/)
-[![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](https://gist.github.com/Johnpc123/3c16b305cc4634cc69df)
-[![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](http://practicalcoder.com/)
+sig.[![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](http://sig.practicalcoder.com/)
+gist.[![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](https://gist.github.com/Johnpc123/3c16b305cc4634cc69df)
 
-...  room for improvement, but objectively better than Googles Angular tour of heroes.
 
-[![BCH compliance](https://bettercodehub.com/results/Johnpc123/friendly-cli?branch=master)](https://github.com/Johnpc123/friendly-cli/)
+...  room for improvement, but objectively better than Googles Angular "Tour of Heroes", rated only :
+[![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/friendly-cli?branch=master)](https://github.com/Johnpc123/friendly-cli/) **!**
+
+[BCH compliance]
 
 
 
