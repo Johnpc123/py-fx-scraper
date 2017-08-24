@@ -46,6 +46,8 @@ python scrape.py
 
 Data access is licensed for personal / educational use.   
 
+## How to Rate
 
+https://bettercodehub.com/results/Johnpc123/py-fx-scraper
 
 
