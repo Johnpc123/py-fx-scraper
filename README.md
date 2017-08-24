@@ -46,7 +46,7 @@ python scrape.py
 
 Data access is licensed for personal / educational use.   
 
-## [BCH compliance] 
+##  [BCH compliance](https://bettercodehub.com/)
 
 - [![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](http://practicalcoder.com/).edge-badge-Johnpc123
 - [![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](http://sig.practicalcoder.com/).sig
