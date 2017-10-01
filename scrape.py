@@ -2,7 +2,16 @@ from pymongo import MongoClient
 import Candlestick
 import time 
 from time import gmtime, strftime
-import urllib2
+from urllib.request import Request
+from urllib.request import urlopen
+from urllib.error import URLError
+
+def getResponse(url):
+    req = Request(url)
+    r = urlopen(req).read()
+    #return json.loads(r.decode('utf-8'))
+    return r.decode('utf-8')
+
 import datetime
 
 
@@ -41,7 +50,7 @@ def catchMainException():
     gapCount = 0
     logscrapeemptyStart = 0
 	# NB replace with your mongodb credentials
-    _client = MongoClient('mongodb://mymongouser:mymongouserpassword@101.111.121.131:27017/EURUSD')   
+    _client = MongoClient('mongodb://localuser:cleverpass@127.0.0.1:27017/EURUSD')   
     _database=_client.EURUSD
     collection=_database.ticks
     collectio10counter=10
@@ -60,7 +69,7 @@ def catchMainException():
                         scrapingStarted=0
                         LogMessage("Scrape Started: " + GetStringTimefromMillisecondEpoch(timeStamp_tick)) 
                     candle = StartCandleFromTick(timeStamp_tick, c, c) #close value is open and close initially               
-                    timeStamp_nextcandle = long(str(timeStamp_tick)[:-3] + "000") + 1000
+                    timeStamp_nextcandle = int(str(timeStamp_tick)[:-3] + "000") + 1000
                     mx=1
                 elif timeStamp_tick > candle.TimeStamp:#is this a new tick?
                     gapCount=0
@@ -83,7 +92,7 @@ def catchMainException():
                             
                         previous = candle
                         candle = StartCandleFromTick(timeStamp_tick, candle.Close, c)#open is close of previous
-                        timeStamp_nextcandle = long(str(timeStamp_tick)[:-3] + "000") + 1000 
+                        timeStamp_nextcandle = int(str(timeStamp_tick)[:-3] + "000") + 1000 
                 else:
                     gapCount += 1 
                     if gapCount == 1:
@@ -113,7 +122,7 @@ def scrapeTick():
     log=1
     while mx:
         try:
-            responseFromServer = urllib2.urlopen("http://webrates.truefx.com/rates/connect.html?f=csv&c=EUR/USD").read()
+            responseFromServer = getResponse("http://webrates.truefx.com/rates/connect.html?f=csv&c=EUR/USD")#.read()
             return responseFromServer
             break
         except Exception as e:
