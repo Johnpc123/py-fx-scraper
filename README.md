@@ -18,21 +18,24 @@ This activity is performed to monitor real time FX spot data, available by http.
 
 ## Motivation (Pair programming, coding interviews and whiteboard 'set' problems)
 
-Here is a quick and dirty python3 script. It could use some refactoring, testing, linting, monitoring, backup, training and extending.   
+Here is a quick python3 script.   
 
-The following concepts are implemented as illustrated.
+With,
 
 * Fail Over
 * Activity Design  
 * Modularity
 * Recursion
 * Exception handling
+* Efficiency
 * Simple lossless compression (Weissmen score 8.7)
 * Logging 
 * Out of order filtering (new ticks cannot be out of order when they crash the sub-process, autostart every .33s)
 * Event triggering
 
 ## How to configure
+
+Install mongoDB
 
 Edit mongodb credentials
 
