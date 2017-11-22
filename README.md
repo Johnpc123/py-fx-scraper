@@ -51,10 +51,7 @@ Data access is licensed for personal / educational use.
 - [![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](http://practicalcoder.com/).edge-badge-Johnpc123
 
 
-## How to Rate
 
-Better than Googles Angular, the "Tour of Heroes", rated only :
-[![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/friendly-cli?branch=master)](https://github.com/Johnpc123/friendly-cli/) **!**
 
 
 
