@@ -16,7 +16,7 @@ This activity is performed to monitor real time FX spot data, available by http.
 
 ![](FXScrapeActivityDiagram.png?raw=true)
 
-## Motivation: Robust automatic continuous real time data monitoring, with humor.
+## Motivation: Robust automatic continuous real time data monitoring, with humour.
 
 Here is a quick python3 script.   
 
