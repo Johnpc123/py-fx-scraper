@@ -41,9 +41,11 @@ Edit mongodb credentials
 
 `_client = MongoClient('mongodb://mymongouser:mymongouserpassword@101.111.121.131:27017/EURUSD')`
 
+`python3 -m pip install pymongo`
+
 ## How to run
 
-python scrape.py
+`python3 scrape.py`
 
 ## License
 
