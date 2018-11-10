@@ -51,9 +51,7 @@ Edit mongodb credentials
 
 Data access is licensed for personal / educational use.   
 
-##  [BCH compliance](https://bettercodehub.com/)
 
-- [![BCH compliance](https://bettercodehub.com/edge/badge/Johnpc123/py-fx-scraper?branch=master)](http://practicalcoder.com/).edge-badge-Johnpc123
 
 
 
