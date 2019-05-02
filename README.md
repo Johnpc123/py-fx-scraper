@@ -1,5 +1,5 @@
 # py-fx-scraper
-A robust script to scrape real-time FX pair values, stored with up to 80% lossless compression. (Weissmen score 8.7) 
+A robust script to scrape real-time FX pair values, stored with up to 80% lossless compression.  
 
 ## Overview
 
@@ -16,7 +16,7 @@ This activity is performed to monitor real time FX spot data, available by http.
 
 ![](FXScrapeActivityDiagram.png?raw=true)
 
-## Motivation: Robust automatic continuous real time data monitoring, with humour.
+## Motivation: Robust automatic continuous real time data monitoring.
 
 Here is a quick python3 script.   
 
@@ -28,7 +28,7 @@ With,
 * Recursion
 * Exception handling
 * Efficiency
-* Simple lossless compression (Weissmen score 8.7)
+* Simple lossless compression 
 * Logging 
 * Out of order filtering (new ticks cannot be out of order when they crash the sub-process, autostart every .33s)
 * Event triggering
